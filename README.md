@@ -1,5 +1,13 @@
 # Workshop reproducibility - Berlin
 
+## Follow along
+
+[lars.vilhuber.com/p/berlin2024/](https://lars.vilhuber.com/p/berlin2024/)
+
+## Survey for Day 2
+
+<https://forms.gle/zbLC45gEtbKGtM6q6>
+
 ## Day 1
 
 ### Session 1
