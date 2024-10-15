@@ -30,8 +30,8 @@ One of the following:
 
 - JIT Preservation of research output
 
-  - https://labordynamicsinstitute.github.io/replication-tutorial-2019/#/18
-  - https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/#/2 (possibly challenging)
+  - <https://labordynamicsinstitute.github.io/replication-tutorial-2019/#/18>
+  - <https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/#/2> (possibly challenging)
 
 - Short presentation on concerns about ethics in data dissemination
 - In-depth tutorial on the use of Docker for economics research
