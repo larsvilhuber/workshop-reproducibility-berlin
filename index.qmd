@@ -54,7 +54,10 @@ One of the following:
   - <https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/#/2> (possibly challenging)
 
 - Short presentation on concerns about ethics in data dissemination
-- In-depth tutorial on the use of Docker for economics research
+- **In-depth tutorial on the use of Docker for economics research**
+  - <https://codeocean.com>
+  - <https://wholetale.org>
+  - <https://github.com/codespaces>
 
 ### Results
 
