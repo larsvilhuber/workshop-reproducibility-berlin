@@ -41,7 +41,7 @@ if (!dir.exists(here::here("data"))) {
 
 ### Session 3
 
-[Reproducibility when some data are confidential](https://larsvilhuber.github.io/reproducibility-confidential-fsrdc/) (but with lots of modifications)
+[Reproducibility when some data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/) 
 
 ### Session 4
 
