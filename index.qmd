@@ -11,7 +11,8 @@ library(here)
 library(knitr)
 library(dplyr)
 library(ggplot2)
-gurl <- "https://www.dropbox.com/scl/fi/2lva05o3bnazh41pg2ddv/berlin-google-responses.csv?rlkey=4rbx7kt8p5r8rpe69pldvpudt&dl=1"
+secret <- Sys.getenv("DROPBOX_KEY")
+gurl <- paste0("https://www.dropbox.com/scl/fi/",secret,"/berlin-google-responses.csv?rlkey=4rbx7kt8p5r8rpe69pldvpudt&dl=1")
 if (!dir.exists(here::here("data"))) {
   dir.create(here::here("data"))
 }
