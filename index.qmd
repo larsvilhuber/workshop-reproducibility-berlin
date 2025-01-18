@@ -61,21 +61,23 @@ One of the following:
 
 ### Results
 
-```{r downloaddata}
+```{r downloaddata, echo=false}
 # download data to local location
 download.file(gurl,destfile=here::here("data","berlin-google-responses.csv"))
 # read file in
 berlin_google_responses <- read_csv(here::here("data","berlin-google-responses.csv"))
 
 ```
-```{r create_table, results='asis'}
+```{r create_table, echo=false}
 berlin_google_responses |>
   select(Topic) |>
   group_by(Topic) |>
   summarise(Frequency=n()) |>
   ungroup() |>
   mutate(Percent = round(Frequency/nrow(berlin_google_responses)*100,2)) -> data
+```
 
+```{r display_table, echo=false, results='asis'}
 data |> kable()
 
 ```
